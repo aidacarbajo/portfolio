@@ -1,0 +1,201 @@
+---
+import Base from '../layouts/Base.astro';
+import { links, packvalet, portrait, story, type Content } from '../i18n/content';
+
+interface Props {
+  t: Content;
+}
+
+const { t } = Astro.props;
+const checkIds = Object.keys(t.check.items) as (keyof typeof t.check.items)[];
+const other = t.lang === 'en' ? 'es' : 'en';
+const fmt = new Intl.NumberFormat(t.lang);
+---
+
+<Base t={t}>
+  <header class="cockpit">
+    <nav class="bar" aria-label="Main">
+      <a class="callsign" translate="no" href={t.lang === 'en' ? '/' : '/es/'} aria-label="Aida Carbajo">AC</a>
+      <ul class="bar-links">
+        <li class="wide"><a href="#services">{t.nav.services}</a></li>
+        <li class="wide"><a href="#story">{t.nav.story}</a></li>
+        <li class="wide"><a href="#app">{t.nav.app}</a></li>
+        <li><a href="#contact">{t.nav.contact}</a></li>
+        <li><a href={links.cv} download>{t.nav.cv}</a></li>
+        <li><a href={t.otherLang.href} hreflang={other} lang={other} aria-label={t.otherLang.label}>{t.otherLang.short}</a></li>
+      </ul>
+    </nav>
+
+    <div class="ident">
+      <h1 class="name" translate="no">
+        <span class="name-line"><span>{t.hero.first}</span></span>
+        <span class="name-line"><span>{t.hero.second}</span></span>
+      </h1>
+      <p class="role">{t.hero.role}</p>
+    </div>
+
+    <figure class="window">
+      <div class="window-glass">
+        <img src={portrait.src} alt={t.hero.portraitAlt} width={portrait.w} height={portrait.h} fetchpriority="high" />
+        <span class="shade" aria-hidden="true"></span>
+      </div>
+    </figure>
+
+    <section class="card" aria-labelledby="card-h">
+      <div class="card-head">
+        <h2 id="card-h">{t.hero.checklist}</h2>
+        <span>{t.hero.checklistFor}</span>
+      </div>
+      <ol class="challenge" role="list">
+        {t.hero.items.map((it, i) => (
+          <li style={`--i:${i}`}>
+            <a href={`#${it.id}`}>
+              <span class="ch">{it.label}</span>
+              <span class="dots" aria-hidden="true"></span>
+              <span class="resp"><span class="lamp" aria-hidden="true"></span>{t.hero.response}</span>
+            </a>
+          </li>
+        ))}
+      </ol>
+      <div class="cleared" style={`--i:${t.hero.items.length}`}>
+        <p>{t.hero.cleared}</p>
+        <a class="btn btn-amber" href={links.mailto}>{t.hero.action}</a>
+      </div>
+    </section>
+  </header>
+
+  <main id="main">
+    <section class="board" id="services" aria-labelledby="services-h">
+      <h2 id="services-h" class="h2" data-reveal>{t.services.heading}</h2>
+      <ul class="strips" role="list">
+        {t.services.strips.map((s, i) => (
+          <li class={`strip strip-${i}`} data-strip style={`--i:${i}`}>
+            <span class="strip-code" aria-hidden="true">{s.code}</span>
+            <h3 class="strip-name">{s.name}</h3>
+            <p class="strip-what">{s.what}</p>
+            <p class="strip-tools">{s.tools}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="log" aria-labelledby="log-h">
+      <div class="log-intro" data-reveal>
+        <h2 id="log-h" class="h2">{t.log.heading}</h2>
+        <p>{t.log.note}</p>
+      </div>
+      <div class="log-page" data-reveal>
+        <table>
+          <thead>
+            <tr>{t.log.columns.map((c) => <th scope="col">{c}</th>)}</tr>
+          </thead>
+          <tbody>
+            {t.log.rows.map((r) => (
+              <tr>
+                <td class="nums">{r.when}</td>
+                <td>{r.entry}</td>
+                <td class="result nums">
+                  {r.prefix}{r.value !== null && <span data-count={r.value}>{fmt.format(r.value)}</span>}{r.suffix}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+          <tfoot>
+            <tr>
+              <th scope="row" colspan="2">{t.log.totalLabel}</th>
+              <td class="result nums"><span data-count={t.log.total}>{fmt.format(t.log.total)}</span>+</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+
+    <section class="story" id="story" aria-labelledby="story-h">
+      <div class="story-intro" data-reveal>
+        <h2 id="story-h" class="h2">{t.story.heading}</h2>
+        <p>{t.story.text}</p>
+        <button class="btn btn-navy sound" type="button" data-sound={t.story.sound} data-mute={t.story.mute} hidden>{t.story.sound}</button>
+      </div>
+      <div class="story-video" data-reveal>
+        <video src={story.video[t.lang]} poster={story.poster[t.lang]} width="540" height="960" muted loop playsinline preload="metadata" controls aria-label={t.story.videoLabel}></video>
+      </div>
+      <figure class="story-photo" data-reveal>
+        <img src={story.photo.src} width={story.photo.w} height={story.photo.h} alt={t.story.photoAlt} loading="lazy" decoding="async" />
+      </figure>
+    </section>
+
+    <section class="app" id="app" aria-labelledby="app-h">
+      <div class="app-intro" data-reveal>
+        <img class="app-icon" src={packvalet.icon} width="256" height="256" alt="" loading="lazy" decoding="async" />
+        <h2 id="app-h" class="h2">{t.app.heading}</h2>
+        <p>{t.app.text}</p>
+        <a class="btn btn-amber" href={links.appStore} rel="noopener">{t.app.action}</a>
+      </div>
+      <div class="carousel" tabindex="0" aria-label={t.app.heading}>
+        <img src={packvalet.poster.src} width={packvalet.poster.w} height={packvalet.poster.h} alt={t.app.posterAlt} loading="lazy" decoding="async" />
+        {packvalet.shots.map((s, i) => (
+          <img src={s.src} width={s.w} height={s.h} alt={t.app.shotAlt[i]} loading="lazy" decoding="async" />
+        ))}
+      </div>
+    </section>
+
+    <section
+      class="check"
+      id="check"
+      aria-labelledby="check-h"
+      data-summary={t.check.summary}
+      data-running={t.check.running}
+      data-again={t.check.again}
+      data-passed={t.check.passed}
+      data-failed={t.check.failed}
+    >
+      <div class="check-intro" data-reveal>
+        <h2 id="check-h" class="h2">{t.check.heading}</h2>
+        <p>{t.check.text}</p>
+        <button class="btn btn-amber run" type="button" hidden>{t.check.action}</button>
+        <noscript><p>{t.check.noscript}</p></noscript>
+        <p class="check-summary nums" aria-live="polite"></p>
+      </div>
+      <ol class="check-list" role="list">
+        {checkIds.map((id) => (
+          <li class="check-item" data-check={id}>
+            <span class="ch">{t.check.items[id]}</span>
+            <span class="dots" aria-hidden="true"></span>
+            <span class="check-state"><span class="lamp" aria-hidden="true"></span><span class="check-word">{t.check.pending}</span></span>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    <section class="clear" id="contact" aria-labelledby="contact-h">
+      <h2 id="contact-h" class="clear-h" data-reveal>{t.contact.heading}</h2>
+      <p class="clear-text" data-reveal>{t.contact.text}</p>
+      <a class="btn btn-amber btn-big" href={links.mailto} data-reveal>{t.contact.action}</a>
+      <dl class="clear-rows">
+        {t.contact.rows.map((r) => (
+          <div>
+            <dt>{r.label}</dt>
+            <dd>{r.href ? <a href={r.href} rel={r.href.startsWith('http') ? 'me' : undefined}>{r.value.replace('@', '​@')}</a> : r.value}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <ul class="foot-links" role="list">
+      <li><a href={links.linkedin} rel="me">{t.footer.links.linkedin}</a></li>
+      <li><a href={links.mailto}>{t.footer.links.email}</a></li>
+      <li><a href={links.appStore} rel="noopener">{t.footer.links.app}</a></li>
+      <li><a href={links.cv} download>{t.footer.links.cv}</a></li>
+      <li><a href={t.otherLang.href} hreflang={other} lang={other}>{t.otherLang.label}</a></li>
+    </ul>
+    <p>{t.footer.rights}</p>
+  </footer>
+
+  <script>
+    import '../scripts/motion';
+    import '../scripts/sanity';
+    import '../scripts/story';
+  </script>
+</Base>
