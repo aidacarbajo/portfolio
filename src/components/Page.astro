@@ -114,7 +114,7 @@ const fmt = new Intl.NumberFormat(t.lang);
       <div class="story-intro" data-reveal>
         <h2 id="story-h" class="h2">{t.story.heading}</h2>
         <p>{t.story.text}</p>
-        <button class="btn btn-navy sound" type="button" data-sound={t.story.sound} data-mute={t.story.mute} hidden>{t.story.sound}</button>
+        <button class="btn btn-amber sound" type="button" data-sound={t.story.sound} data-mute={t.story.mute} hidden>{t.story.sound}</button>
       </div>
       <div class="story-video" data-reveal>
         <video src={story.video[t.lang]} poster={story.poster[t.lang]} width="540" height="960" muted loop playsinline preload="metadata" controls aria-label={t.story.videoLabel}></video>

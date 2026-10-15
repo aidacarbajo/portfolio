@@ -165,8 +165,8 @@ h1, h2, h3 { text-wrap: balance; }
 .story-intro { grid-column: 1 / 5; display: flex; flex-direction: column; align-items: flex-start; gap: 1.5rem; }
 .story-intro p { max-width: 34ch; font-size: var(--s-lead); line-height: 1.4; }
 .story-video { grid-column: 5 / 9; }
-.story-video { padding: clamp(10px, 1.1vw, 16px); background: var(--navy-raised); border-radius: 44% / 26%; }
-.story-video video { width: 100%; height: auto; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 42% / 24%; background: var(--navy); }
+.story-video { padding: clamp(10px, 1.1vw, 16px); background: var(--navy-raised); border-radius: 20% / 11%; }
+.story-video video { width: 100%; height: auto; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 18% / 10%; background: var(--navy); }
 .story-photo { grid-column: 9 / 13; align-self: end; }
 .story-photo img { width: 100%; border-radius: var(--r); }
 
