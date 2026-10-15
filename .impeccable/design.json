@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-15T15:10:55+00:00",
+  "title": "Design System: Aida Carbajo",
+  "extensions": {
+    "colorMeta": {
+      "cockpit-navy": {
+        "role": "neutral",
+        "displayName": "Cockpit Navy",
+        "canonical": "#0b2a4a",
+        "tonalRamp": [
+          "oklch(15% 0.069 252.3)",
+          "oklch(26% 0.069 252.3)",
+          "oklch(38% 0.069 252.3)",
+          "oklch(49% 0.069 252.3)",
+          "oklch(61% 0.069 252.3)",
+          "oklch(72% 0.069 252.3)",
+          "oklch(84% 0.069 252.3)",
+          "oklch(95% 0.069 252.3)"
+        ]
+      },
+      "navy-raised": {
+        "role": "neutral",
+        "displayName": "Navy Raised",
+        "canonical": "#133b63",
+        "tonalRamp": [
+          "oklch(15% 0.083 251.5)",
+          "oklch(26% 0.083 251.5)",
+          "oklch(38% 0.083 251.5)",
+          "oklch(49% 0.083 251.5)",
+          "oklch(61% 0.083 251.5)",
+          "oklch(72% 0.083 251.5)",
+          "oklch(84% 0.083 251.5)",
+          "oklch(95% 0.083 251.5)"
+        ]
+      },
+      "navy-deep": {
+        "role": "neutral",
+        "displayName": "Navy Deep",
+        "canonical": "#071d34",
+        "tonalRamp": [
+          "oklch(15% 0.053 251.9)",
+          "oklch(26% 0.053 251.9)",
+          "oklch(38% 0.053 251.9)",
+          "oklch(49% 0.053 251.9)",
+          "oklch(61% 0.053 251.9)",
+          "oklch(72% 0.053 251.9)",
+          "oklch(84% 0.053 251.9)",
+          "oklch(95% 0.053 251.9)"
+        ]
+      },
+      "on-navy": {
+        "role": "neutral",
+        "displayName": "On Navy",
+        "canonical": "#f4f6f7",
+        "tonalRamp": [
+          "oklch(15% 0.003 228.8)",
+          "oklch(26% 0.003 228.8)",
+          "oklch(38% 0.003 228.8)",
+          "oklch(49% 0.003 228.8)",
+          "oklch(61% 0.003 228.8)",
+          "oklch(72% 0.003 228.8)",
+          "oklch(84% 0.003 228.8)",
+          "oklch(95% 0.003 228.8)"
+        ]
+      },
+      "on-navy-muted": {
+        "role": "neutral",
+        "displayName": "On Navy Muted",
+        "canonical": "#a9bdd1",
+        "tonalRamp": [
+          "oklch(15% 0.036 248.3)",
+          "oklch(26% 0.036 248.3)",
+          "oklch(38% 0.036 248.3)",
+          "oklch(49% 0.036 248.3)",
+          "oklch(61% 0.036 248.3)",
+          "oklch(72% 0.036 248.3)",
+          "oklch(84% 0.036 248.3)",
+          "oklch(95% 0.036 248.3)"
+        ]
+      },
+      "laminate": {
+        "role": "neutral",
+        "displayName": "Laminate",
+        "canonical": "#f4f6f7",
+        "tonalRamp": [
+          "oklch(15% 0.003 228.8)",
+          "oklch(26% 0.003 228.8)",
+          "oklch(38% 0.003 228.8)",
+          "oklch(49% 0.003 228.8)",
+          "oklch(61% 0.003 228.8)",
+          "oklch(72% 0.003 228.8)",
+          "oklch(84% 0.003 228.8)",
+          "oklch(95% 0.003 228.8)"
+        ]
+      },
+      "board": {
+        "role": "neutral",
+        "displayName": "Board",
+        "canonical": "#dfe6ec",
+        "tonalRamp": [
+          "oklch(15% 0.011 243.7)",
+          "oklch(26% 0.011 243.7)",
+          "oklch(38% 0.011 243.7)",
+          "oklch(49% 0.011 243.7)",
+          "oklch(61% 0.011 243.7)",
+          "oklch(72% 0.011 243.7)",
+          "oklch(84% 0.011 243.7)",
+          "oklch(95% 0.011 243.7)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#0d1b2a",
+        "tonalRamp": [
+          "oklch(15% 0.036 251.3)",
+          "oklch(26% 0.036 251.3)",
+          "oklch(38% 0.036 251.3)",
+          "oklch(49% 0.036 251.3)",
+          "oklch(61% 0.036 251.3)",
+          "oklch(72% 0.036 251.3)",
+          "oklch(84% 0.036 251.3)",
+          "oklch(95% 0.036 251.3)"
+        ]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Ink Muted",
+        "canonical": "#3b4b5c",
+        "tonalRamp": [
+          "oklch(15% 0.035 250.2)",
+          "oklch(26% 0.035 250.2)",
+          "oklch(38% 0.035 250.2)",
+          "oklch(49% 0.035 250.2)",
+          "oklch(61% 0.035 250.2)",
+          "oklch(72% 0.035 250.2)",
+          "oklch(84% 0.035 250.2)",
+          "oklch(95% 0.035 250.2)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "#b9c6d2",
+        "tonalRamp": [
+          "oklch(15% 0.022 245.9)",
+          "oklch(26% 0.022 245.9)",
+          "oklch(38% 0.022 245.9)",
+          "oklch(49% 0.022 245.9)",
+          "oklch(61% 0.022 245.9)",
+          "oklch(72% 0.022 245.9)",
+          "oklch(84% 0.022 245.9)",
+          "oklch(95% 0.022 245.9)"
+        ]
+      },
+      "annunciator-amber": {
+        "role": "primary",
+        "displayName": "Annunciator Amber",
+        "canonical": "#ffb000",
+        "tonalRamp": [
+          "oklch(15% 0.170 76.4)",
+          "oklch(26% 0.170 76.4)",
+          "oklch(38% 0.170 76.4)",
+          "oklch(49% 0.170 76.4)",
+          "oklch(61% 0.170 76.4)",
+          "oklch(72% 0.170 76.4)",
+          "oklch(84% 0.170 76.4)",
+          "oklch(95% 0.170 76.4)"
+        ]
+      },
+      "amber-press": {
+        "role": "primary",
+        "displayName": "Amber Press",
+        "canonical": "#e89f00",
+        "tonalRamp": [
+          "oklch(15% 0.159 76.0)",
+          "oklch(26% 0.159 76.0)",
+          "oklch(38% 0.159 76.0)",
+          "oklch(49% 0.159 76.0)",
+          "oklch(61% 0.159 76.0)",
+          "oklch(72% 0.159 76.0)",
+          "oklch(84% 0.159 76.0)",
+          "oklch(95% 0.159 76.0)"
+        ]
+      },
+      "amber-ink": {
+        "role": "primary",
+        "displayName": "Amber Ink",
+        "canonical": "#1a1200",
+        "tonalRamp": [
+          "oklch(15% 0.038 89.1)",
+          "oklch(26% 0.038 89.1)",
+          "oklch(38% 0.038 89.1)",
+          "oklch(49% 0.038 89.1)",
+          "oklch(61% 0.038 89.1)",
+          "oklch(72% 0.038 89.1)",
+          "oklch(84% 0.038 89.1)",
+          "oklch(95% 0.038 89.1)"
+        ]
+      },
+      "checked-green": {
+        "role": "secondary",
+        "displayName": "Checked Green",
+        "canonical": "#17784f",
+        "tonalRamp": [
+          "oklch(15% 0.108 159.5)",
+          "oklch(26% 0.108 159.5)",
+          "oklch(38% 0.108 159.5)",
+          "oklch(49% 0.108 159.5)",
+          "oklch(61% 0.108 159.5)",
+          "oklch(72% 0.108 159.5)",
+          "oklch(84% 0.108 159.5)",
+          "oklch(95% 0.108 159.5)"
+        ]
+      },
+      "go-lamp": {
+        "role": "secondary",
+        "displayName": "Go Lamp",
+        "canonical": "#2fbf71",
+        "tonalRamp": [
+          "oklch(15% 0.164 154.1)",
+          "oklch(26% 0.164 154.1)",
+          "oklch(38% 0.164 154.1)",
+          "oklch(49% 0.164 154.1)",
+          "oklch(61% 0.164 154.1)",
+          "oklch(72% 0.164 154.1)",
+          "oklch(84% 0.164 154.1)",
+          "oklch(95% 0.164 154.1)"
+        ]
+      },
+      "stop-red": {
+        "role": "secondary",
+        "displayName": "Stop Red",
+        "canonical": "#c0392b",
+        "tonalRamp": [
+          "oklch(15% 0.170 29.7)",
+          "oklch(26% 0.170 29.7)",
+          "oklch(38% 0.170 29.7)",
+          "oklch(49% 0.170 29.7)",
+          "oklch(61% 0.170 29.7)",
+          "oklch(72% 0.170 29.7)",
+          "oklch(84% 0.170 29.7)",
+          "oklch(95% 0.170 29.7)"
+        ]
+      },
+      "strip-amber": {
+        "role": "tertiary",
+        "displayName": "Strip Amber",
+        "canonical": "#ffd27a",
+        "tonalRamp": [
+          "oklch(15% 0.118 82.9)",
+          "oklch(26% 0.118 82.9)",
+          "oklch(38% 0.118 82.9)",
+          "oklch(49% 0.118 82.9)",
+          "oklch(61% 0.118 82.9)",
+          "oklch(72% 0.118 82.9)",
+          "oklch(84% 0.118 82.9)",
+          "oklch(95% 0.118 82.9)"
+        ]
+      },
+      "strip-blue": {
+        "role": "tertiary",
+        "displayName": "Strip Blue",
+        "canonical": "#a9d2f5",
+        "tonalRamp": [
+          "oklch(15% 0.065 244.4)",
+          "oklch(26% 0.065 244.4)",
+          "oklch(38% 0.065 244.4)",
+          "oklch(49% 0.065 244.4)",
+          "oklch(61% 0.065 244.4)",
+          "oklch(72% 0.065 244.4)",
+          "oklch(84% 0.065 244.4)",
+          "oklch(95% 0.065 244.4)"
+        ]
+      },
+      "strip-pink": {
+        "role": "tertiary",
+        "displayName": "Strip Pink",
+        "canonical": "#f4b9c4",
+        "tonalRamp": [
+          "oklch(15% 0.069 6.2)",
+          "oklch(26% 0.069 6.2)",
+          "oklch(38% 0.069 6.2)",
+          "oklch(49% 0.069 6.2)",
+          "oklch(61% 0.069 6.2)",
+          "oklch(72% 0.069 6.2)",
+          "oklch(84% 0.069 6.2)",
+          "oklch(95% 0.069 6.2)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The name only, two uppercase lines, second in amber."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings, uppercase, balanced."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card heads, cleared line, buttons, strip names, logbook results."
+      },
+      "challenge": {
+        "displayName": "Challenge",
+        "purpose": "Left side of a challenge/response row."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Role line and intro paragraphs on navy."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Explanatory text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Nav links, table column heads, contact terms; uppercase tracked."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Footer text."
+      }
+    },
+    "shadows": [
+      {
+        "name": "laminate-lift",
+        "value": "0 18px 40px -18px rgba(3, 12, 24, 0.6)",
+        "purpose": "Checklist card floating over cockpit navy."
+      },
+      {
+        "name": "strip-rest",
+        "value": "0 2px 4px -1px rgba(13, 27, 42, 0.12)",
+        "purpose": "Flight strips resting in their holders."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "The one clock: every entrance, press and reveal."
+      },
+      {
+        "name": "ease-io",
+        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+        "purpose": "The cabin window shade lift only."
+      },
+      {
+        "name": "t-press",
+        "value": "160ms",
+        "purpose": "Button press scale to 0.97."
+      },
+      {
+        "name": "t-hover",
+        "value": "200ms",
+        "purpose": "Hover color and underline fades; lamp color changes."
+      },
+      {
+        "name": "tick",
+        "value": "170ms",
+        "purpose": "Step between checklist responses ticking to CHECKED (each row waits 2 ticks)."
+      },
+      {
+        "name": "strip-stagger",
+        "value": "80ms",
+        "purpose": "Delay between flight strips sliding in from 56px right."
+      },
+      {
+        "name": "odometer",
+        "value": "1100ms ease-out-quart",
+        "purpose": "Logbook numbers rolling up on first view."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "64em (max-width)"
+      },
+      {
+        "name": "phone",
+        "value": "47.99em (max-width)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Amber pill annunciator switch; every primary action (email, App Store, run check).",
+      "html": "<button class=\"ds-btn\">Let's talk</button>",
+      "css": ":host{--navy:#0b2a4a;--navy-raised:#133b63;--on-navy:#f4f6f7;--on-navy-2:#a9bdd1;--laminate:#f4f6f7;--board:#dfe6ec;--ink:#0d1b2a;--ink-2:#3b4b5c;--rule:#b9c6d2;--amber:#ffb000;--amber-press:#e89f00;--amber-ink:#1a1200;--go:#17784f;--go-lamp:#2fbf71;--stop:#c0392b;--strip-1:#ffd27a;--display:'Barlow Condensed','Arial Narrow',sans-serif;--text:'Barlow',system-ui,sans-serif;--ease:cubic-bezier(0.23,1,0.32,1);} .ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:3.25rem;padding:0 1.5rem;border:0;border-radius:999px;font-family:var(--display);font-weight:800;font-size:1.25rem;letter-spacing:0.04em;text-transform:uppercase;text-decoration:none;white-space:nowrap;cursor:pointer;background:var(--amber);color:var(--amber-ink);transition:transform 160ms var(--ease),background-color 200ms ease;} .ds-btn:hover{background:var(--amber-press);} .ds-btn:active{transform:scale(0.97);} .ds-btn:focus-visible,.ds-link:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:4px;}"
+    },
+    {
+      "name": "Big Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary-big",
+      "description": "The contact close's email action.",
+      "html": "<a class=\"ds-btn ds-btn-big\" href=\"#\">Email me</a>",
+      "css": ":host{--navy:#0b2a4a;--navy-raised:#133b63;--on-navy:#f4f6f7;--on-navy-2:#a9bdd1;--laminate:#f4f6f7;--board:#dfe6ec;--ink:#0d1b2a;--ink-2:#3b4b5c;--rule:#b9c6d2;--amber:#ffb000;--amber-press:#e89f00;--amber-ink:#1a1200;--go:#17784f;--go-lamp:#2fbf71;--stop:#c0392b;--strip-1:#ffd27a;--display:'Barlow Condensed','Arial Narrow',sans-serif;--text:'Barlow',system-ui,sans-serif;--ease:cubic-bezier(0.23,1,0.32,1);} .ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:3.25rem;padding:0 1.5rem;border:0;border-radius:999px;font-family:var(--display);font-weight:800;font-size:1.25rem;letter-spacing:0.04em;text-transform:uppercase;text-decoration:none;white-space:nowrap;cursor:pointer;background:var(--amber);color:var(--amber-ink);transition:transform 160ms var(--ease),background-color 200ms ease;} .ds-btn:hover{background:var(--amber-press);} .ds-btn:active{transform:scale(0.97);} .ds-btn-big{min-height:4rem;padding:0 2.25rem;font-size:1.5rem;} .ds-btn:focus-visible,.ds-link:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:4px;}"
+    },
+    {
+      "name": "Challenge / Response Row",
+      "kind": "custom",
+      "refersTo": "checklist-card",
+      "description": "Signature unit: condensed caps challenge, dot leader, lamp and response word.",
+      "html": "<div style=\"background:#f4f6f7;padding:0.5rem 1.5rem;max-width:34rem\"><a class=\"ds-row ds-link\" href=\"#\"><span class=\"ds-ch\">Automated tests</span><span class=\"ds-dots\"></span><span class=\"ds-resp\"><span class=\"ds-lamp\"></span>Checked</span></a></div>",
+      "css": ":host{--navy:#0b2a4a;--navy-raised:#133b63;--on-navy:#f4f6f7;--on-navy-2:#a9bdd1;--laminate:#f4f6f7;--board:#dfe6ec;--ink:#0d1b2a;--ink-2:#3b4b5c;--rule:#b9c6d2;--amber:#ffb000;--amber-press:#e89f00;--amber-ink:#1a1200;--go:#17784f;--go-lamp:#2fbf71;--stop:#c0392b;--strip-1:#ffd27a;--display:'Barlow Condensed','Arial Narrow',sans-serif;--text:'Barlow',system-ui,sans-serif;--ease:cubic-bezier(0.23,1,0.32,1);} .ds-row{display:flex;align-items:baseline;gap:0.6rem;padding:0.55rem 0;border-bottom:1px solid var(--rule);color:var(--ink);text-decoration:none;font-size:1.3rem;} .ds-ch{font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:0.02em;} .ds-dots{flex:1 1 1.5rem;min-width:1rem;align-self:end;margin-bottom:0.4em;height:3px;background:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='3'%3E%3Ccircle cx='1.5' cy='1.5' r='1.2' fill='%233b4b5c'/%3E%3C/svg%3E\") left center / 7px 3px repeat-x;} .ds-resp{font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:0.04em;color:var(--go);white-space:nowrap;} .ds-lamp{display:inline-block;width:0.62em;height:0.62em;border-radius:2px;background:var(--go-lamp);margin-right:0.45em;} .ds-row:hover .ds-ch{text-decoration:underline;text-decoration-color:var(--amber);text-decoration-thickness:3px;} .ds-btn:focus-visible,.ds-link:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:4px;}"
+    },
+    {
+      "name": "Checklist Card",
+      "kind": "card",
+      "refersTo": "checklist-card",
+      "description": "Laminated pre-launch checklist floating on cockpit navy.",
+      "html": "<div style=\"background:#0b2a4a;padding:2rem\"><section class=\"ds-card\"><div class=\"ds-head\"><h2>Pre-launch checklist</h2></div><a class=\"ds-row ds-link\" href=\"#\"><span class=\"ds-ch\">Automated tests</span><span class=\"ds-dots\"></span><span class=\"ds-resp\"><span class=\"ds-lamp\"></span>Checked</span></a><a class=\"ds-row ds-link\" href=\"#\"><span class=\"ds-ch\">Websites</span><span class=\"ds-dots\"></span><span class=\"ds-resp\"><span class=\"ds-lamp\"></span>Checked</span></a><div class=\"ds-cleared\"><p>Cleared for launch</p><button class=\"ds-btn\">Let's talk</button></div></section></div>",
+      "css": ":host{--navy:#0b2a4a;--navy-raised:#133b63;--on-navy:#f4f6f7;--on-navy-2:#a9bdd1;--laminate:#f4f6f7;--board:#dfe6ec;--ink:#0d1b2a;--ink-2:#3b4b5c;--rule:#b9c6d2;--amber:#ffb000;--amber-press:#e89f00;--amber-ink:#1a1200;--go:#17784f;--go-lamp:#2fbf71;--stop:#c0392b;--strip-1:#ffd27a;--display:'Barlow Condensed','Arial Narrow',sans-serif;--text:'Barlow',system-ui,sans-serif;--ease:cubic-bezier(0.23,1,0.32,1);} .ds-row{display:flex;align-items:baseline;gap:0.6rem;padding:0.55rem 0;border-bottom:1px solid var(--rule);color:var(--ink);text-decoration:none;font-size:1.3rem;} .ds-ch{font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:0.02em;} .ds-dots{flex:1 1 1.5rem;min-width:1rem;align-self:end;margin-bottom:0.4em;height:3px;background:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='3'%3E%3Ccircle cx='1.5' cy='1.5' r='1.2' fill='%233b4b5c'/%3E%3C/svg%3E\") left center / 7px 3px repeat-x;} .ds-resp{font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:0.04em;color:var(--go);white-space:nowrap;} .ds-lamp{display:inline-block;width:0.62em;height:0.62em;border-radius:2px;background:var(--go-lamp);margin-right:0.45em;} .ds-row:hover .ds-ch{text-decoration:underline;text-decoration-color:var(--amber);text-decoration-thickness:3px;}.ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:3.25rem;padding:0 1.5rem;border:0;border-radius:999px;font-family:var(--display);font-weight:800;font-size:1.25rem;letter-spacing:0.04em;text-transform:uppercase;text-decoration:none;white-space:nowrap;cursor:pointer;background:var(--amber);color:var(--amber-ink);transition:transform 160ms var(--ease),background-color 200ms ease;} .ds-btn:hover{background:var(--amber-press);} .ds-btn:active{transform:scale(0.97);} .ds-btn:focus-visible,.ds-link:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:4px;} .ds-card{background:var(--laminate);color:var(--ink);border-radius:14px;padding:1.25rem 1.5rem 1.5rem;max-width:34rem;box-shadow:0 18px 40px -18px rgba(3,12,24,0.6);} .ds-head{padding-bottom:0.6rem;margin-bottom:0.35rem;border-bottom:2px solid var(--ink);} .ds-head h2{margin:0;font-family:var(--display);font-weight:800;font-size:1.5rem;text-transform:uppercase;letter-spacing:0.04em;} .ds-cleared{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-top:1rem;} .ds-cleared p{margin:0;font-family:var(--display);font-weight:800;font-size:1.5rem;text-transform:uppercase;letter-spacing:0.03em;}"
+    },
+    {
+      "name": "Flight Strip",
+      "kind": "card",
+      "refersTo": "flight-strip",
+      "description": "A service as an air-traffic flight strip: colored code cell, name, what, tools.",
+      "html": "<div style=\"background:#dfe6ec;padding:1.5rem\"><div class=\"ds-strip\"><span class=\"ds-code\">TST</span><h3 class=\"ds-name\">Automated tests</h3><p class=\"ds-what\">A test repo that runs before every release.</p><p class=\"ds-tools\">Playwright · CI/CD</p></div></div>",
+      "css": ":host{--navy:#0b2a4a;--navy-raised:#133b63;--on-navy:#f4f6f7;--on-navy-2:#a9bdd1;--laminate:#f4f6f7;--board:#dfe6ec;--ink:#0d1b2a;--ink-2:#3b4b5c;--rule:#b9c6d2;--amber:#ffb000;--amber-press:#e89f00;--amber-ink:#1a1200;--go:#17784f;--go-lamp:#2fbf71;--stop:#c0392b;--strip-1:#ffd27a;--display:'Barlow Condensed','Arial Narrow',sans-serif;--text:'Barlow',system-ui,sans-serif;--ease:cubic-bezier(0.23,1,0.32,1);}  .ds-strip{display:grid;grid-template-columns:5.5rem minmax(8rem,1.1fr) 2fr minmax(8rem,1fr);background:var(--laminate);color:var(--ink);font-family:var(--text);border-radius:8px;overflow:hidden;min-height:6.5rem;box-shadow:0 2px 4px -1px rgba(13,27,42,0.12);} .ds-strip>*{margin:0;padding:1rem 1.25rem;display:flex;align-items:center;} .ds-strip>*+*{border-left:1px solid var(--rule);} .ds-code{justify-content:center;background:var(--strip-1);font-family:var(--display);font-weight:800;font-size:1.75rem;letter-spacing:0.04em;} .ds-name{font-family:var(--display);font-weight:800;font-size:1.75rem;line-height:1;text-transform:uppercase;} .ds-tools{font-family:var(--display);font-weight:600;font-size:1.0625rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--ink-2);}"
+    },
+    {
+      "name": "Status Lamps",
+      "kind": "chip",
+      "refersTo": "checklist-card",
+      "description": "The three lamp states of the live check: armed, pass, fail.",
+      "html": "<div class=\"ds-lamps\"><span class=\"ds-state ds-armed\"><span class=\"ds-lamp\"></span>Running</span><span class=\"ds-state ds-pass\"><span class=\"ds-lamp\"></span>Pass</span><span class=\"ds-state ds-fail\"><span class=\"ds-lamp\"></span>Fail</span></div>",
+      "css": ":host{--navy:#0b2a4a;--navy-raised:#133b63;--on-navy:#f4f6f7;--on-navy-2:#a9bdd1;--laminate:#f4f6f7;--board:#dfe6ec;--ink:#0d1b2a;--ink-2:#3b4b5c;--rule:#b9c6d2;--amber:#ffb000;--amber-press:#e89f00;--amber-ink:#1a1200;--go:#17784f;--go-lamp:#2fbf71;--stop:#c0392b;--strip-1:#ffd27a;--display:'Barlow Condensed','Arial Narrow',sans-serif;--text:'Barlow',system-ui,sans-serif;--ease:cubic-bezier(0.23,1,0.32,1);}  .ds-lamps{display:flex;gap:1.5rem;background:var(--laminate);padding:1rem 1.5rem;} .ds-state{font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:0.03em;color:var(--ink-2);font-size:1.125rem;} .ds-lamp{display:inline-block;width:0.62em;height:0.62em;border-radius:2px;margin-right:0.45em;background:var(--rule);} .ds-armed .ds-lamp{background:var(--amber);} .ds-pass{color:var(--go);} .ds-pass .ds-lamp{background:var(--go-lamp);} .ds-fail{color:var(--stop);} .ds-fail .ds-lamp{background:var(--stop);}"
+    },
+    {
+      "name": "Cockpit Nav",
+      "kind": "nav",
+      "refersTo": "nav-bar",
+      "description": "Amber callsign plus uppercase condensed links on cockpit navy.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-callsign ds-link\" href=\"#\">AC</a><ul><li><a class=\"ds-link\" href=\"#\">Services</a></li><li><a class=\"ds-link\" href=\"#\">Contact</a></li><li><a class=\"ds-link\" href=\"#\">CV</a></li><li><a class=\"ds-link\" href=\"#\">ES</a></li></ul></nav>",
+      "css": ":host{--navy:#0b2a4a;--navy-raised:#133b63;--on-navy:#f4f6f7;--on-navy-2:#a9bdd1;--laminate:#f4f6f7;--board:#dfe6ec;--ink:#0d1b2a;--ink-2:#3b4b5c;--rule:#b9c6d2;--amber:#ffb000;--amber-press:#e89f00;--amber-ink:#1a1200;--go:#17784f;--go-lamp:#2fbf71;--stop:#c0392b;--strip-1:#ffd27a;--display:'Barlow Condensed','Arial Narrow',sans-serif;--text:'Barlow',system-ui,sans-serif;--ease:cubic-bezier(0.23,1,0.32,1);}  .ds-btn:focus-visible,.ds-link:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:4px;} .ds-nav{display:flex;align-items:center;justify-content:space-between;background:var(--navy);color:var(--on-navy);padding:1.25rem 2rem;} .ds-callsign{font-family:var(--display);font-weight:800;font-size:1.75rem;letter-spacing:0.02em;color:var(--amber);text-decoration:none;} .ds-nav ul{list-style:none;margin:0;padding:0;display:flex;gap:2rem;font-family:var(--display);font-weight:600;font-size:1.125rem;text-transform:uppercase;letter-spacing:0.06em;} .ds-nav ul a{color:inherit;display:inline-block;padding-block:0.7rem;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:0.22em;transition:text-decoration-color 200ms ease;} .ds-nav ul a:hover{text-decoration-color:var(--amber);}"
+    },
+    {
+      "name": "Logbook Page",
+      "kind": "card",
+      "refersTo": "logbook-page",
+      "description": "Proof entered as a logbook table with large tabular results.",
+      "html": "<div style=\"background:#dfe6ec;padding:1.5rem\"><div class=\"ds-log\"><table><thead><tr><th>Date</th><th>Entry</th><th>Result</th></tr></thead><tbody><tr><td>2024</td><td>Selenium suite rebuilt in Playwright</td><td class=\"ds-res\">40 min</td></tr></tbody><tfoot><tr><th colspan=\"2\">Defects reported</th><td class=\"ds-res ds-total\">600+</td></tr></tfoot></table></div></div>",
+      "css": ":host{--navy:#0b2a4a;--navy-raised:#133b63;--on-navy:#f4f6f7;--on-navy-2:#a9bdd1;--laminate:#f4f6f7;--board:#dfe6ec;--ink:#0d1b2a;--ink-2:#3b4b5c;--rule:#b9c6d2;--amber:#ffb000;--amber-press:#e89f00;--amber-ink:#1a1200;--go:#17784f;--go-lamp:#2fbf71;--stop:#c0392b;--strip-1:#ffd27a;--display:'Barlow Condensed','Arial Narrow',sans-serif;--text:'Barlow',system-ui,sans-serif;--ease:cubic-bezier(0.23,1,0.32,1);}  .ds-log{background:var(--laminate);color:var(--ink);font-family:var(--text);border-radius:14px;padding:1.5rem;} .ds-log table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;} .ds-log th,.ds-log td{text-align:left;padding:1rem 0.75rem 1rem 0;border-bottom:1px solid var(--rule);vertical-align:baseline;} .ds-log thead th{font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:0.08em;font-size:1rem;color:var(--ink-2);border-bottom:2px solid var(--ink);padding-top:0;} .ds-log thead th:last-child,.ds-res{text-align:right;padding-right:0;} .ds-res{font-family:var(--display);font-weight:800;font-size:2.25rem;line-height:1;white-space:nowrap;} .ds-log tfoot th{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:1.25rem;border-bottom:0;} .ds-total{color:var(--go);font-size:4rem;border-bottom:0;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Pre-flight Checklist",
+    "overview": "Nothing launches until every item reads CHECKED. The whole site is one aviation pre-flight check: cockpit navy panels own the opening and the close, laminated cool-white cards carry challenge/response rows joined by dot leaders, amber annunciator lights mark what needs attention and green responses mark what passed. Services sit in air-traffic flight strips on a pale board, proof is entered in a logbook, the portrait sits behind a cabin window whose shade lifts on load, and the page runs its own live check before the visitor is \"cleared for launch\" by emailing Aida.\n\nThe world is procedural and confident, not decorative. Type is condensed caps doing the work a cockpit placard does: short, loud, legible at a glance. Surfaces are flat, matte and printed-feeling; there are no gradients and no glass. Depth comes from navy-on-navy tonality and laminate cards resting on a board, with only soft shadows under the things a hand could pick up.\n\nMotion runs on one clock. A single ease-out curve drives everything from the name rising to the checklist ticking, so the page feels like one instrument being switched on in sequence rather than a collection of effects.",
+    "keyCharacteristics": [
+      "Cockpit navy opens and closes the page; the pale board carries the working middle.",
+      "Every list is a challenge/response row: condensed caps label, dot leader, status word.",
+      "Status has exactly three lamps: amber (armed), green (checked), red (failed).",
+      "One accent, annunciator amber, carries the name's second line, the callsign, the primary action and focus.",
+      "Barlow Condensed for everything that speaks; Barlow for everything that explains.",
+      "One ease-out clock for all motion; controls press to 0.97."
+    ],
+    "rules": [
+      {
+        "name": "The Three Lamps Rule",
+        "body": "Status has exactly three colors: amber is armed or waiting, green is checked, red is failed. A green word never appears unless something actually passed.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Accent Rule",
+        "body": "Amber is the only accent. It marks the name, the action and focus; it is never a section background and never body text on light surfaces.",
+        "section": "colors"
+      },
+      {
+        "name": "The Placard Rule",
+        "body": "Anything that names, labels or answers is Barlow Condensed in uppercase. Anything that explains is Barlow in sentence case. Never set a paragraph in condensed caps.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Numbers Rule",
+        "body": "Dates, counts and results use tabular figures so rolling numbers do not jitter.",
+        "section": "typography"
+      },
+      {
+        "name": "The Matte Panel Rule",
+        "body": "No gradients, no glass, no blur. A surface is a flat color; it gets depth from the surface it sits on.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** express any list of things to verify as challenge/response rows with dot leaders and a lamp.",
+      "**Do** keep status to the three lamps: amber armed, green checked, red failed.",
+      "**Do** put laminate on board or on navy; text on laminate is ink.",
+      "**Do** set names, labels, responses and buttons in Barlow Condensed uppercase, and explanations in Barlow sentence case.",
+      "**Do** run every move on the page ease and press controls to 0.97.",
+      "**Do** use tabular figures for dates and numbers."
+    ],
+    "donts": [
+      "**Don't** use gradients, glass or blur on any surface.",
+      "**Don't** use green for anything that did not pass a check.",
+      "**Don't** put white text on amber; amber takes amber-ink.",
+      "**Don't** present services as a row of identical cards; they are flight strips.",
+      "**Don't** fall back to a big-number stats strip; numbers live in the logbook with their entries."
+    ]
+  }
+}
